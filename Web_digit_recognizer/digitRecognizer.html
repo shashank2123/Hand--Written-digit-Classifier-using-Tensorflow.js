@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digit Recognizer</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas id="myCanvas" width="280" height="280"></canvas>
+        <img id="canvasImg"  width="280" height="280">
+        <table>
+            <td><button id="classifyID">Classify</button></td>
+            <td><button id="eraseID">Clear</button></td>
+        </table>
+        <p id='equalSign'>=></p>
+        <p id="resultID">Result</p>
+        <script src="classify.js"></script>
+    </body>
+</html>

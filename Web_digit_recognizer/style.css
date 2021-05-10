@@ -1,0 +1,44 @@
+body {
+    background: #384047;
+    font-family: sans-serif;
+  }
+  
+  canvas {
+    background: white;
+    position:absolute;
+    border:8px solid;
+  }
+  button {
+    background: #e95f0f;
+    box-shadow: 0 3px 0 0 #6A845F;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 0 1px #6A845F;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  #canvasImg{
+    position:absolute;
+    display:none
+  }
+  table{
+    position:absolute;
+    top:  60%;
+    left: 30%
+  }
+  #resultID{
+    position:absolute;
+    top:  5%;
+    left: 50%;
+    color: white;
+    font-size: 70px;
+  }
+  #equalSign{
+    position:absolute;
+    top:  5%;
+    left: 35%;
+    color: white;
+    font-size: 70px;
+  }
